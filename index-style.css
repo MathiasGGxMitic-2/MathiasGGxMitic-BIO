@@ -238,3 +238,49 @@ body {
 .link-box i {
     font-size: 20px;
 }
+
+@media (max-width: 520px) {
+    body {
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    main {
+        width: 100%;
+        padding: 0 16px 32px 16px;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 90px;
+        padding: 24px 20px;
+        border-radius: 22px;
+    }
+
+    .pfp {
+        width: 120px;
+        height: 120px;
+    }
+
+    .box {
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+
+    .label {
+        font-size: 13px;
+    }
+
+    .link-box {
+        font-size: 16px;
+        padding: 14px 16px;
+    }
+
+    .dropdown-menu {
+        width: calc(100vw - 48px);
+    }
+
+    .navbar-bar {
+        padding: 12px 16px;
+    }
+}
