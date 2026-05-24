@@ -257,7 +257,7 @@ body {
     body {
         align-items: flex-start;
         padding: 0;
-        min-height: auto;
+        min-height: unset;
     }
 
     main {
