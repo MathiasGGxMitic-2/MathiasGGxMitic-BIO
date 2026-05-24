@@ -257,11 +257,12 @@ body {
     body {
         align-items: flex-start;
         padding: 0;
+        min-height: auto;
     }
 
     main {
         width: 100%;
-        padding: 0 16px 90px 16px;
+        padding: 0 16px 32px 16px;
     }
 
     .card {
