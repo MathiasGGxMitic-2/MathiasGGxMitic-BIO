@@ -225,8 +225,6 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     font-weight: 500;
-    background: linear-gradient(135deg, var(--accent2), var(--accent1));
-    box-shadow: 0 10px 25px rgba(255, 46, 166, 0.25);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -237,6 +235,21 @@ body {
 
 .link-box i {
     font-size: 20px;
+}
+
+.link-tiktok {
+    background: linear-gradient(135deg, #010101, #2d2d2d);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.link-twitch {
+    background: linear-gradient(135deg, #6441a5, #9147ff);
+    box-shadow: 0 10px 25px rgba(145, 71, 255, 0.35);
+}
+
+.link-instagram {
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    box-shadow: 0 10px 25px rgba(220, 39, 67, 0.35);
 }
 
 @media (max-width: 520px) {
