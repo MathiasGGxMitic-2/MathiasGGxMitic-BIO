@@ -363,4 +363,8 @@ body {
         font-size: 15px;
         width: auto;
     }
+
+    .gdpr-note p {
+        max-width: 440px;
+    }
 }
