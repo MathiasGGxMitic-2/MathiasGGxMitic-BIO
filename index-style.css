@@ -268,7 +268,7 @@ body {
 }
 
 .gdpr-note p {
-    max-width: 500px;
+    max-width: 420px;
     margin: 0 auto;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
@@ -363,9 +363,3 @@ body {
         font-size: 15px;
         width: auto;
     }
-
-    .gdpr-note p {
-        max-width: 420px;
-        font-size: 14px;
-    }
-}
