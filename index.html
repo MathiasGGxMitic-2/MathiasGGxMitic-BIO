@@ -15,13 +15,7 @@
     <body>
         <header class="navbar">
             <div class="navbar-bar">
-                <div class="lang-select-container">
-                    <i class="fa-solid fa-globe lang-icon"></i>
-                    <select class="lang-select" onchange="location = this.value;" aria-label="Seleziona lingua">
-                        <option value="index.html" selected>IT</option>
-                        <option value="index-en.html">EN</option>
-                    </select>
-                </div>
+                <!-- Menu Principale a Sinistra -->
                 <button class="menu-btn" id="menu-btn" aria-label="Apri menu di navigazione">
                     <div class="menu-lines">
                         <span></span>
@@ -35,11 +29,29 @@
                     <div class="desktop-nav-divider"></div>
                     <span class="menu-soon"><i class="fa-solid fa-screwdriver-wrench"></i>IN FUTURO...</span>
                 </nav>
+
+                <!-- Menu Lingua a Destra -->
+                <div class="lang-menu-wrapper">
+                    <button class="lang-btn" id="lang-btn" aria-label="Cambia lingua">
+                        <span class="lang-flag">🇮🇹</span>
+                        <span class="lang-text">IT</span>
+                        <i class="fa-solid fa-chevron-down" id="lang-chevron"></i>
+                    </button>
+                </div>
             </div>
+
+            <!-- Dropdown Menu Principale (Sinistra) -->
             <div class="dropdown-menu" id="dropdown-menu">
                 <a href="index.html"><i class="fa-solid fa-link"></i>BIO</a>
                 <div class="menu-divider"></div>
                 <span class="menu-soon"><i class="fa-solid fa-screwdriver-wrench"></i>IN FUTURO...</span>
+            </div>
+
+            <!-- Dropdown Menu Lingua (Destra) -->
+            <div class="lang-dropdown" id="lang-dropdown">
+                <a href="index.html" class="active"><span class="lang-flag">🇮🇹</span> Italian (IT)</a>
+                <div class="menu-divider"></div>
+                <a href="index-en.html"><span class="lang-flag">🇬🇧</span> English (EN)</a>
             </div>
         </header>
         <main>
