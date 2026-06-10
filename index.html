@@ -15,6 +15,13 @@
     <body>
         <header class="navbar">
             <div class="navbar-bar">
+                <div class="lang-select-container">
+                    <i class="fa-solid fa-globe lang-icon"></i>
+                    <select class="lang-select" onchange="location = this.value;" aria-label="Seleziona lingua">
+                        <option value="index.html" selected>IT</option>
+                        <option value="index-en.html">EN</option>
+                    </select>
+                </div>
                 <button class="menu-btn" id="menu-btn" aria-label="Apri menu di navigazione">
                     <div class="menu-lines">
                         <span></span>
