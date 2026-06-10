@@ -57,6 +57,9 @@ body {
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     transition: transform 0.25s ease, background 0.25s ease;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .menu-btn:hover, .lang-btn:hover {
@@ -79,10 +82,12 @@ body {
 
 .lang-btn {
     gap: 10px;
-    font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 1px;
+}
+
+.lang-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .lang-flag {
@@ -123,7 +128,7 @@ body {
 
 .lang-dropdown {
     right: 24px;
-    width: 180px;
+    width: 210px;
 }
 
 .dropdown-menu.active, .lang-dropdown.active {
@@ -147,11 +152,6 @@ body {
     align-items: center;
     gap: 12px;
     width: 100%;
-}
-
-.lang-dropdown a {
-    letter-spacing: 1px;
-    font-size: 14px;
 }
 
 .dropdown-menu a:hover, .lang-dropdown a:hover {
